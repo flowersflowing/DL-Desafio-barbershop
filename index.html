@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="logo" class="logo__image"></a>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="logo" class="logo__nav"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,20 +43,43 @@
         <div>
             <h4 class="main__date">12 de abril de 2018</h4>
             <h5 class="main__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nesciunt laborum commodi amet ea fugiat fuga qui animi et. Fuga excepturi eveniet eaque ipsam accusamus, sunt maiores sit officiis rem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum natus quasi quam voluptatum et omnis nemo a explicabo atque, illum minus aspernatur, accusantium obcaecati cum quia ad praesentium perspiciatis minima.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, repellat expedita sunt suscipit totam eaque magnam neque cum omnis non officiis amet, et impedit porro sit ab perspiciatis dolore nesciunt?<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam non, natus voluptas nesciunt cumque minima amet, dignissimos dolores doloribus a consectetur enim culpa officiis cum tenetur obcaecati accusamus, libero.<br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, possimus placeat nostrum ipsum minus impedit unde aliquid, quasi amet perspiciatis fugit distinctio aperiam nulla minima blanditiis cumque illo dicta odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad similique ipsam sit officiis eius quae natus nostrum, ipsa fuga laborum sapiente sunt, at suscipit totam amet magnam molestias velit.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugit autem molestias velit hic deleniti nihil repudiandae ullam qui error consequuntur omnis dolorum id amet odio obcaecati odit.              
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nesciunt laborum commodi amet ea fugiat fuga qui animi et. Fuga excepturi eveniet eaque ipsam accusamus, sunt maiores sit officiis rem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum natus quasi quam voluptatum et omnis nemo a explicabo atque, illum minus aspernatur, accusantium obcaecati cum quia ad praesentium perspiciatis minima.<br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, repellat expedita sunt suscipit totam eaque magnam neque cum omnis non officiis amet, et impedit porro sit ab perspiciatis dolore nesciunt?<br> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam non, natus voluptas nesciunt cumque minima amet, dignissimos dolores doloribus a consectetur enim culpa officiis cum tenetur obcaecati accusamus, libero.<br> <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, possimus placeat nostrum ipsum minus impedit unde aliquid, quasi amet perspiciatis fugit distinctio aperiam nulla minima blanditiis cumque illo dicta odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad similique ipsam sit officiis eius quae natus nostrum, ipsa fuga laborum sapiente sunt, at suscipit totam amet magnam molestias velit.<br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugit autem molestias velit hic deleniti nihil repudiandae ullam qui error consequuntur omnis dolorum id amet odio obcaecati odit.              
             </h5>
             <div>
-                <button type="button">Compartir</button>
-                <button type="button">Comentar en Twitter</button>                  
+                <button type="button" class="button__left button__text">Compartir</button>
+                <button type="button" class="button__right button__text">Comentar en Twitter</button>                  
             </div>
         </div>
     </section>
 
     <section class="grid">
         <div class="row">
-                <img src="assets/images/naomi-thai.png" alt="Naomi" class="col-4">                
-                <h6 class="col-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora debitis mollitia animi autem facilis error possimus quae quisquam doloremque soluta ratione molestiae porro ea, earum necessitatibus.</h6>                
+                <img src="assets/images/naomi-thai.png" alt="Naomi" class="col-md-3 naomi__image"> 
+                <div class="col-md-2">
+                    <h2>Naomi Thai</h2>    
+                    <h3>@Naothai <br> depelos.com</h3>
+                </div>             
+                <h6 class="col-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora debitis mollitia animi autem facilis error possimus quae quisquam doloremque soluta ratione molestiae porro ea, earum necessitatibus.</h6>                
         </div>
+    </section>
+
+    <section class="sect__pagination">
+      <nav aria-label="...">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Anterior</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active">
+            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Siguiente</a>
+          </li>
+        </ul>
+      </nav>
+
     </section>
 
     <footer class="footer">

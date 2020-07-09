@@ -1,0 +1,19 @@
+.button__left {
+    background-color: $nickel;
+    border: none;
+    margin: 1rem 0.5rem 7rem 4.5rem;
+    border-radius: 50px;
+}
+
+.button__right {
+    background-color: $nickel;
+    border: none;
+    margin: 1rem 4.5rem 7rem 0.5rem;
+    border-radius: 50px;
+}
+
+.button__text {
+    font-family: $roboto;
+    color: $white;
+    padding: 1rem 1.2rem 1rem 1.2rem;
+}
