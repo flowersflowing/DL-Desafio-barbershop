@@ -1,0 +1,13 @@
+.header {
+    background-image: url('../images/post-image.jpg');
+    background-repeat: no-repeat;
+    box-sizing: cover;
+}
+
+.header__title {
+    font-family: $playfair;
+    font-size: $x-large;
+    font-weight: $black;
+    display: flex;
+    align-items: center;
+}
